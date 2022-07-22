@@ -13,7 +13,9 @@
 		8165DB2A2889665F00794399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8165DB282889665F00794399 /* Main.storyboard */; };
 		8165DB2C2889666000794399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8165DB2B2889666000794399 /* Assets.xcassets */; };
 		8165DB2F2889666000794399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8165DB2D2889666000794399 /* LaunchScreen.storyboard */; };
-		8165DB3A28897AF200794399 /* BitCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165DB3928897AF200794399 /* BitCoinModel.swift */; };
+		8165DB3A28897AF200794399 /* BitCoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165DB3928897AF200794399 /* BitCoinManager.swift */; };
+		8190FA2B288ABFE20040A1EF /* BitCoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190FA2A288ABFE20040A1EF /* BitCoinData.swift */; };
+		8190FA2D288AC1E50040A1EF /* BitCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190FA2C288AC1E50040A1EF /* BitCoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		8165DB2B2889666000794399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8165DB2E2889666000794399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8165DB302889666000794399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8165DB3928897AF200794399 /* BitCoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCoinModel.swift; sourceTree = "<group>"; };
+		8165DB3928897AF200794399 /* BitCoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCoinManager.swift; sourceTree = "<group>"; };
+		8190FA2A288ABFE20040A1EF /* BitCoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCoinData.swift; sourceTree = "<group>"; };
+		8190FA2C288AC1E50040A1EF /* BitCoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitCoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 		8165DB37288969BE00794399 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8165DB3928897AF200794399 /* BitCoinModel.swift */,
+				8165DB3928897AF200794399 /* BitCoinManager.swift */,
+				8190FA2A288ABFE20040A1EF /* BitCoinData.swift */,
+				8190FA2C288AC1E50040A1EF /* BitCoinModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,9 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8190FA2D288AC1E50040A1EF /* BitCoinModel.swift in Sources */,
 				8165DB272889665F00794399 /* ViewController.swift in Sources */,
+				8190FA2B288ABFE20040A1EF /* BitCoinData.swift in Sources */,
 				8165DB232889665F00794399 /* AppDelegate.swift in Sources */,
-				8165DB3A28897AF200794399 /* BitCoinModel.swift in Sources */,
+				8165DB3A28897AF200794399 /* BitCoinManager.swift in Sources */,
 				8165DB252889665F00794399 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

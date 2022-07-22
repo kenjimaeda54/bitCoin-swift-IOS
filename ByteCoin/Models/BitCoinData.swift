@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct BitCoinModel {
+
+struct BitCoinData: Decodable {
+	let asset_id_quote: String
 	let rate: Double
-	let country: String
-		
 }
