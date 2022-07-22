@@ -39,7 +39,7 @@ if error != nil {
 
 //======================== 
 // quem criou a logica de negocio foi na struct bitCoinManager
-//	bitCoinModel.delegateBitCoin = self
+//bitCoinManager.delegateBitCoin = self
 //Delegate
 
 extension ViewController:BitCoinDelegate {
