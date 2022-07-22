@@ -1,10 +1,9 @@
 # Bit Coin
-Aplicacao consumindo api [BitCoin](https://www.coinapi.io/)
+Aplicação consumindo api [BitCoin](https://www.coinapi.io/)
 
 
-## Motivacap
+## Motivação
 Praticar o uso do desing patern delegate e MVC
-
 
 ## Feature
 - Maneira de transformar os dados retornando da api em strings e usar objeto String
