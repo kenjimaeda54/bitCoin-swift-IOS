@@ -93,3 +93,8 @@ extension ViewController:UIPickerViewDelegate {
 
 ```
 
+
+##
+## Screen
+![screen](https://github.com/kenjimaeda54/bitCoin-swift-IOS/blob/master/Screen%20Shot%202022-07-22%20at%2009.12.59.png)
+
